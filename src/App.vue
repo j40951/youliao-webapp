@@ -1,28 +1,49 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
-  </div>
+  <yd-layout>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <div>乱七八糟的内容在这里，超出容器，将出现滚动条。</div>
+    <message></message>
+    
+    <div slot="bottom">
+      <textbox></textbox>
+    </div>
+  </yd-layout>
 </template>
 
 <script>
-import Hello from './components/Hello'
+// import {Layout} from 'vue-ydui/dist/lib.px/layout'
+import Message from './components/message'
+import Textbox from './components/textbox'
+
+// Vue.use(Layout);
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Message,
+    Textbox
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+
